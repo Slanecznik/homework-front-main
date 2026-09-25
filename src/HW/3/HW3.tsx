@@ -30,12 +30,12 @@ export const HW3 = () => {
       {currentText ? (
         <h1 id={'hw03-text'}>{currentText}</h1>
       ) : (
-        <h1 id={'hw03-default-text'}>Здесь появится новое дело</h1> // ничего не меняем, здесь все норм
+        <h1 id={'hw03-default-text'}>Здесь появится новое дело</h1>
       )}
 
       <input id={'hw03-input'} type="text" value={currentText} onChange={handleChange} />
 
-      <button id={'hw03-button'} onClick={handleSave}> // НЕ ХВАТАТЕТ ФУНКЦИИ
+      <button id={'hw03-button'} onClick={handleSave}>
         Сохранить
       </button>
 
